@@ -6,3 +6,6 @@ const upe = "abcdefgh";
 console.log(upe.toUpperCase());
 const low = "ABCDFT";
 console.log(low.toLocaleLowerCase());
+console.log(low.slice(3, 4));
+const trim = "      hello world       ";
+console.log(trim.trim());
